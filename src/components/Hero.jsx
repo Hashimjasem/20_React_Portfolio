@@ -1,33 +1,36 @@
 import React from 'react';
 import Typed from 'react-typed';
+import Avatar1 from '../Assets/bitmoji_carpet.png'
 
 const Hero = () => {
   return (
-    <div className='text-white'>
-      <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold p-2'>
-          GROWING WITH DATA ANALYTICS
-        </p>
-        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
-          Grow with data.
-        </h1>
-        <div className='flex justify-center items-center'>
-          <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
-            Fast, flexible financing for
-          </p>
-          <Typed
-          className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
-            strings={['BTB', 'BTC', 'SASS']}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
-          />
+    <div className="w-full py-16 px-4">
+      <div className="max-w-[1240px] grid md:grid-cols-2 bg-[#2d524c] py-4 px-6 mx-4 text-white rounded-lg" >
+        <div className="flex flex-col justify-center">
+
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">About Me</h1>
+          <div>
+            <p className='md:text-3xl sm:text-2xl text-xl font-bold'>I am a 21 year old  Australian/Iraqi who loves
+              <Typed
+                className='md:text-3xl sm:text-2xl text-xl font-bold md:pl-2 pl-1'
+                strings={['Tech', 'Nature', 'Engineering', 'Sports', 'Motorcycles']}
+                typeSpeed={40}
+                backSpeed={60}
+                loop
+              />
+              </p>
+              <p className='py-3'>
+                I am a recent Bootcamp graduate and I have become obsessed with becoming a better programmer.
+                
+              </p>
+              <p>I am a full-stack developer, but I found that I enjoy the creative work of front-end development  </p>
+          </div>
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <img src={Avatar1} alt="laptop" className="w-[500px] mx-auto my-4" />
       </div>
     </div>
   );
 };
 
 export default Hero;
+
