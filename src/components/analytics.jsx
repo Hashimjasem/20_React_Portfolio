@@ -12,10 +12,8 @@ const Analytics = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam dicta itaque rem perspiciatis adipisci non. Deleniti tempore praesentium suscipit! Dolore eos autem numquam magnam ratione aspernatur eaque aperiam provident?
                     </p>
                     <button className='text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 bg-black'>Get Started</button>
-
                 </div>
             </div>
-
         </div>
     );
 }
