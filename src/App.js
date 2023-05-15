@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import NavBar from "./components/navBar";
-import Analytics from "./components/analytics";
+import Skills from "./components/skills";
 import Newsletter from "./components/newsletter";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Hero/>
-      <Analytics/>
+      <Skills/>
       <Newsletter/>
     </div>
   );
